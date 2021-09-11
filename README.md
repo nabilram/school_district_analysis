@@ -6,13 +6,16 @@
 * identification of worst 5 and top 5 school per passing %
 * average math and reading scores per grade level
 * scores by (1) school size; (2) expenditure per student; (3) school type
+* source files provided by client are are:
+    * school and district information CSV - [HERE](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/schools_complete.csv)
+    * student and grades information CSV - [HERE](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/students_complete.csv)
 
 ### Possible grade manipulation and cheating has been reported:
 Client asks for revamped analytics to see the exent and effect possible cheating
 * remove all 9th grade scores from Thomas High School (THS)
 * rerun overall metrics to see if there is any effect or statistical difference
 * report back to see if any actions should be taken
-* ipynb notebook, AFTER THS cheating reports, is found [HERE](https://github.com/nabilram/school_district_pandas_analytics/blob/main/PyCitySchools_Challenge.ipynb) .
+* output ipynb notebook, AFTER THS cheating reports and wrangling, is found [HERE](https://github.com/nabilram/school_district_pandas_analytics/blob/main/PyCitySchools_Challenge.ipynb) .
 
 ## Results of Analysis
 ### District Summary Comparisons
