@@ -1,7 +1,7 @@
 # school_district_analysis
 
 ## Overview
-### Client is school district of XYZ county they are asking for:
+### Client is school district of XYZ county. They are asking for:
 * analytics at district and school level performance
 * identification of worst 5 and top 5 school per passing %
 * average math and reading scores per grade level
