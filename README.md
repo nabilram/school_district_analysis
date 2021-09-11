@@ -2,13 +2,13 @@
 
 ## Overview
 ### Client is school district of XYZ county they are asking for:
-* analytics district and school level performance
+* analytics at district and school level performance
 * identification of worst 5 and top 5 school per passing %
 * average math and reading scores per grade level
 * scores by (1) school size; (2) expenditure per student; (3) school type
 
-### Possible grade manipulation and cheating has been reported.
-Client asks for revamped analytics to see the exent and effect cheating.
+### Possible grade manipulation and cheating has been reported:
+Client asks for revamped analytics to see the exent and effect possible cheating
 * remove all 9th grade scores from Thomas High School (THS)
 * rerun overall metrics to see if there is any effect or statistical difference
 * report back to see if any actions should be taken
@@ -48,7 +48,7 @@ Client asks for revamped analytics to see the exent and effect cheating.
 
 ![post-grade](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/post_per_grade.PNG)
 
-* Effect of grade manipulation: as expected 9th Grade THS score are now NaN (not a number)
+* Effect of grade manipulation: as expected 9th Grade THS scores are now NaN (not a number)
 
 ### Scores by School Expenditure Comparisons
 * Before THS wrangling:
@@ -59,7 +59,7 @@ Client asks for revamped analytics to see the exent and effect cheating.
 
 ![post-spend](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/post_spend.PNG)
 
-* Effect of grade manipulation: grades under expendture bin 630-644USD bin are affected
+* Effect of grade manipulation: grades under expenditure bin 630-644USD are affected
 * Expected as THS is within this spend per student bin classification
 
 ### Scores by School Size Comparisons
