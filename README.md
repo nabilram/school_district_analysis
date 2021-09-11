@@ -17,39 +17,46 @@ Client asks for revamped analytics to see the exent and effect cheating.
 ## Results of Analysis
 ### District Summary Comparisons
 * Before THS wrangling: 
+
 ![pre-dis](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/pre_district_summary.PNG)
 
 * After THS data wrangling:
+
 ![post-dis](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/post_district_summary.PNG)
 
 * Effect of grade manipulation: MINOR. Not statistically significant at the district level
 
 ### School Summary Comparisons
 * Before THS wrangling:
+
 ![pre-school](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/pre_school_summary.PNG)
 
 * After THS data wrangling:
+
 ![post-school](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/post_school_summary.PNG)
 
 * Effect of grade manipulation: MAJOR. Statistically significant at the school level
 * How has it affected THS performane compared to other school?
-    * This Ranking dropped but still in top 5
-    * This means their 10-12th graders do well in school 
+    * from 65% to 90% passing rate -- THS shot up to the top ranked performing schools
     
 ### Scores by Grade Level Comparisons
 * Before THS wrangling:
+
 ![pre-grade](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/pre_per_grade.PNG)
 
 * After THS data wrangling:
+
 ![post-grade](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/post_per_grade.PNG)
 
 * Effect of grade manipulation: as expected 9th Grade THS score are now NaN (not a number)
 
 ### Scores by School Expenditure Comparisons
 * Before THS wrangling:
+
 ![pre-spend](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/pre_spend.PNG)
 
 * After THS data wrangling:
+
 ![post-spend](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/post_spend.PNG)
 
 * Effect of grade manipulation: grades under expendture bin 630-644USD bin are affected
@@ -79,7 +86,7 @@ Before THS wrangling:
 * Grade manipulation had the most effect on school level metrics
 * Grade manipulation had least effect of district level metrics. 
 * Effect on data using different indices varies -- depending on index used. 
-    * Overall the index in which THS falls under is what is most affected
+    * Overall, the index in which THS falls under is what is most affected
 
 
 
