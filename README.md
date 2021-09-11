@@ -87,7 +87,7 @@ Before THS wrangling:
 
 ## Summary
 * Grade manipulation had the most effect on school level metrics
-* Grade manipulation had least effect of district level metrics. 
+* Grade manipulation had least effect on district level metrics. 
 * Effect on data using different indices varies -- depending on index used. 
     * Overall, the index in which THS falls under is what is most affected
 
