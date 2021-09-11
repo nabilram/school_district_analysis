@@ -6,7 +6,7 @@
 * identification of worst 5 and top 5 school per passing %
 * average math and reading scores per grade level
 * scores by (1) school size; (2) expenditure per student; (3) school type
-* source files provided by client are are:
+* source files provided by client are:
     * school and district information CSV - [HERE](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/schools_complete.csv)
     * student and grades information CSV - [HERE](https://github.com/nabilram/school_district_pandas_analytics/blob/main/resources/students_complete.csv)
 
